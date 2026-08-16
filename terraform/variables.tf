@@ -26,7 +26,7 @@ variable "enable_gpu" {
 variable "cpu_instance_type" {
   description = "Instance type for the default CPU (LightGBM) compute node"
   type        = string
-  default     = "t3.medium"
+  default     = "t3.small"
 }
 
 variable "gpu_instance_type" {
